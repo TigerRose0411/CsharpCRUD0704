@@ -43,7 +43,7 @@ namespace ConsoleForDb0701
         public static void Read()//查詢
         {
             using(SqlConnection db =
-            new SqlConnection("Data Source=DESKTOP-V3D7KIT;Initial Catalog=tempdb;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
+            new SqlConnection("Data Source=(//YOURCOMPUTER);Initial Catalog=tempdb;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"))
             {
                 db.Open();
                 try
